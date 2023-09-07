@@ -26,11 +26,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
-<!-- We just have to use viewpager -->
+                    
+                  <!-- We just have to use viewpager -->
+                    
                     <androidx.viewpager2.widget.ViewPager2
                         android:id="@+id/viewPager"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent" />
+                
 
                 </androidx.appcompat.widget.LinearLayoutCompat>
 
