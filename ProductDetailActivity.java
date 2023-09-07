@@ -17,12 +17,12 @@ public class ProductDetailActivity extends AppCompatActivity {
         viewPager = findViewById(R.id.viewPager);
         
 
-         mediaItems.add(new MediaItem(MediaItem.TYPE_IMAGE,"https://30app.hdddekho.com/ProductImages/" + productList.get(i).getImage1()));
-         mediaItems.add(new MediaItem(MediaItem.TYPE_VIDEO,"https://30app.hdddekho.com/ProductImages/" + productList.get(i).getVideo1()));
-         mediaItems.add(new MediaItem(MediaItem.TYPE_IMAGE,"https://30app.hdddekho.com/ProductImages/" + productList.get(i).getImage2()));
-         mediaItems.add(new MediaItem(MediaItem.TYPE_VIDEO,"https://30app.hdddekho.com/ProductImages/" + productList.get(i).getVideo2()));
-         mediaItems.add(new MediaItem(MediaItem.TYPE_IMAGE,"https://30app.hdddekho.com/ProductImages/" + productList.get(i).getImage3()));
-         mediaItems.add(new MediaItem(MediaItem.TYPE_IMAGE,"https://30app.hdddekho.com/ProductImages/" + productList.get(i).getImage4()));
+         mediaItems.add(new MediaItem(MediaItem.TYPE_IMAGE,"your app link here" + productList.get(i).getImage1()));
+         mediaItems.add(new MediaItem(MediaItem.TYPE_VIDEO,"your app link here" + productList.get(i).getVideo1()));
+         mediaItems.add(new MediaItem(MediaItem.TYPE_IMAGE,"your app link here" + productList.get(i).getImage2()));
+         mediaItems.add(new MediaItem(MediaItem.TYPE_VIDEO,"your app link here" + productList.get(i).getVideo2()));
+         mediaItems.add(new MediaItem(MediaItem.TYPE_IMAGE,"your app link here" + productList.get(i).getImage3()));
+         mediaItems.add(new MediaItem(MediaItem.TYPE_IMAGE,"your app link here" + productList.get(i).getImage4()));
 
          sliderAdapter = new MediaSliderAdapter(ProductDetailActivity.this, mediaItems, viewPager);
          viewPager.setAdapter(sliderAdapter);
